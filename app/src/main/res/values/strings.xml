@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Blogger</string>
+    <string name="title">Self Gratitude Journal</string>
+    <string name="greateful_text">What are you greateful for today?</string>
+    <string name="get_started">get started</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="or">or</string>
+    <string name="createaccount">Create New Account</string>
+    <string name="username">Username</string>
+    <string name="Username">Sinha_Ritik</string>
+    <string name="Date">04-11-2019</string>
+    <string name="post_title_hint">Title</string>
+    <string name="post_thought_hint">Enter Your Thought</string>
+    <string name="menu_title">Add Thought</string>
+    <string name="signout">Signout</string>
+    <string name="add_journal_hint">Add a journal by clicking the \'+\' icon above</string>
+    <string name="journal_title_list">Journal Title</string>
+    <string name="journalimage">journalImage</string>
+    <string name="journal_thought_list">Journal Thought</string>
+    <string name="date_created">Date created</string>
+
+</resources>

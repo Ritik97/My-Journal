@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradient_bg"
+    android:padding="16dp"
+    tools:context=".LoginActivity">
+
+    <ProgressBar
+        android:id="@+id/progressbar_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleLarge"
+        android:visibility="gone"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/email_field_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:textColor="@color/colorAccent"
+        android:hint="@string/email"/>
+
+   <EditText
+       android:id="@+id/password_field_login"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="16dp"
+       android:inputType="textPassword"
+       android:hint="@string/password"
+       android:textColor="@color/colorAccent"
+       android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/bt_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:textStyle="bold"
+        android:elevation="@dimen/cardview_compat_inset_shadow"
+        android:textSize="16sp"
+        android:layout_marginTop="14dp"
+        android:text="@string/login"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/or"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/bt_create_account_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:elevation="@dimen/cardview_compat_inset_shadow"
+        android:background="@android:color/transparent"
+        android:text="@string/createaccount"
+        android:textColor="@color/colorAccent"/>
+
+</LinearLayout>
